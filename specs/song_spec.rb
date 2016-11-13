@@ -28,8 +28,8 @@ class TestSong < Minitest::Test
 
 
 # 4
-# def test_find_song_by_name
-#   song = find_song_by_name(@song1)
-#   assert_equal(song, @song1)
-# end
+def test_find_song_by_name
+  @room.find_song_by_name(@song1)
+  assert_equal(@artist, @title)
+end
 end

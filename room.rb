@@ -36,13 +36,13 @@ end
 
 
 #3
-# def find_song_by_name(song)
-#   song = []
-#   @songs.each do |song|
-#     if song == @song1
-#       return @song1
-#     end
-#   end
-# end
+def find_song_by_name(song)
+  song = []
+  @song.each do |song|
+    if song == @song1
+      return song
+    end
+  end
+end
 end
 
